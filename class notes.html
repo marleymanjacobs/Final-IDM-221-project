@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width. initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Document Title</title>
+</head>
+<!-- Use control shift p to do shortcuts (start with > to get things normally) -->
+<!-- 
+    links examples:
+    <p>Go view our<a href="products.html">product list</a>.</P>
+
+../ means to go out a level
+
+    <a href="httP:// link.com" targets = "blahblahblah">Linkname</a> 
+    this means that you can keep calling it by the blahblahblah
+
+Moving up down page ankor:
+id attribute can be applied to any element and it's a unique identifier. 
+by calling it later, you will move to where it is on the page.
+
+attribute: <thing id="value">text to click name in browser</thing>
+Refferencing an id uses the #
+<h1 id="top">top of page</h1>
+<a href="#arc">arc shot</a>
+
+ul is unordered listlist
+<ul>
+    <li>enter billing info</li>
+    <li> blah balald</li>
+</ul>
+ordered list is ol, and isntead of bullet points, it numbers them.
+
+definition list, definition term, definitiion d
+<dl>
+    <dt> my term</dt>
+        <dd>definition dumthing</dd>
+</dl>
+
+
+images neet alt tag:
+
+<img src=""
+
+how to get each file type on the web
+jpg
+gif
+png
+svg
+___
+
+when using an image, resolution should be 72 pixels to inches
+crop and resize image to size needed for webpage.
+minimize quality to not change the picture badly, but not take up too much data. file size should be low b4 quality suffers
+use save for web for every picture ur gonna load on ur webpage. 
+
+div stands for division. it's an abritrary box
+div is like a sub folder. you can call it at any time to do everything within, like the python project. 
+<div id="header">
+    <h1>Insert headder</h1>
+</div>
+
+span element: span is an inline elemnent. creates extra structure so that css can change it later. 
+<p><span id="welcome">welcome to the jungle</span>. we have some&hellip;</p>
+
+block element is a box. it takes up as much space as it possible can. when it closes, thereis an auto line breaker.
+    can make divs within divs. 
+    (ex: paragraph. stretches as far to the right as it can) ex, also headings. nothing is to the right of them
+Inline element takes up as little space as possible. 
+    (ex: a bold of text inside a div tag. it only bolds the letters selected. other example is ankering a link)
+
+in html5 u can do better. 
+you can create a div within a div for navigation, and you can have a sidebar, and a footer. now u can make each primary are
+are multiple areas. inside each sidebar there are multiple stories, and now there are a ton of divs and its hard to read and lots
+of nesting errors. there is no content and it's already stressfull. div element is simmanticly inert. browser can't read the
+id of the headder for example.
+
+html5 lets you include simantic elements:
+instead of <div id=head> can just use V
+<header></header>
+<nav></nav>
+<main></main>
+<aside></aside>
+<footer></footer>
+
+use these html5 elements when they are appropriate. use divs when u need additional styling.
+
+suggested hw ex:
+
+
+new file V
+html top file stuff
+
+
+
+CSS:
+x-name, aka the property
+h1 {
+    Anything in here is the property rule set for all h1
+    
+    /* property: Value / * <- this is a title, not part of the code
+
+    color: navy; /*this is a decleration
+    EX:
+    border-bottom: 2px solid #ff; /* add line bellow h2 headings This si the comment of CSS*/ 
+}
+
+Build structure and then present structuee. if structure is good, u can easily style it
+
+EX:
+html:
+
+<body>
+    <h1 class="base_color">student materials</h1>
+    <p>Here are the downloads:</p>
+    <ul id="links">
+        <li><a href="exercises.html">exercises</a></li>
+    </ul>
+    <p id="copyright" Class="base_color">&copu'2016</p>
+</body>
+
+ID has to be unique, for 1 distinct thing you can modify with a css
+class is for multiple, and an element can have multiple elements. shared style
+
+CSS:
+
+*{
+
+}     --This is the universal selecter. selects everything/all elements
+
+*{
+    margin:.5em 1em;
+}
+
+body {
+    font-family:arial, sans-serif;
+}     -- type selector, applies style based around what the html element is. all body will have these styles
+h1 { font-size: 180%;}
+all h1 would have these conditions? --
+
+2nd type of selector applies to a single html element based on ID element
+Use # symbol to call an id
+
+#copyright {
+    font-size: 75%;
+    text-align: right;
+}
+
+.base_color {color: blue;}
+
+
+External style sheet
+HTML:
+
+<link
+    rel="stylesheet" --relationship, what it is
+    href="/css/master.css" --- points to the file aka the style sheet
+    media="screen" --- built for screen 
+    charset="utf-8"
+>
+
+
+Embedded styles:
+
+<head>
+    <style>
+    body{
+        font-family: Arial, sans-serif;
+    }
+    h1 {
+    font-size: 130%;
+    }
+    </style>
+</head>
+
+At the top of the doc. 
+
+
+
+
+
+3rd version: inline.
+
+<h1 style="font-size: 250%; color: red;">
+    town hall
+</h1>
+dont do it this way, it is messy and time consuming
+
+
+CSS means more than one can be applied to the same page.
+two or more rules for the same proeprty are applied to the same element. the cascade order determines which rule takes precedence
+
+Cascade order is a specific orer of how things are applied. 
+Cascade order:
+first thing it looks for is all the things in the users style sheet that are marked as important. not the style sheet you write,
+the users personal preferences. browsers have a preference page. 
+next comes the important rules in a web page. 
+normal rules in a web page
+norml rules in a user style sheet
+default rules in the web browser
+
+at the bottom of the sheet, mark something as important to make it overwrite everything else
+
+.highlight {
+    font-weight: bold !important;
+}
+
+p.highlight {color:red;}
+p/highlight {color:blue;}
+When the text looks at this, the priority are the same, but the second rule overides the first. the last appleid becomes true.
+
+measurements:
+px for pixels
+pt for points 1/72 of an inch
+em for ems> (em1 is current font size)
+% for size (relative to base font size so 100% is normal.)
+vw is viewort width
+vh is viewport hight
+
+check how to get to slide tha thas list of color + names
+
+can also use hexcodes for color or rgb
+some properties are inherited by children, some arent. u can always overide
+
+rgba(a is opacity)
+HSL
+HSLA (hue-degrees, saturation, lightness, opacty value)
+
+how to select individual part of a thign called.
+EX:
+
+(that's the first perafraph of each subtopic)
+h2+p{
+    
+}
+
+
+.speakers li { font-size: 18px; }
+list items within the all lists with speakers class. 
+
+
+psuedo-selector:
+a:visited
+a:hover
+a:active
+a:focus (blue glow or outline, aka highlight)
+
+normalzie style sheet sets margins to 0 so theres no space between edge of the browser and the body.
+sets default faunt family to somethign standard. to sizing, spacing, etc.... gets rid of rounded corner/
+ends inconsistencies. 
+can save normaliae fiel as part of css. can setup and link to the normalzie page. write ur styles on top of normalzie sheet. or use
+reset css. 
+
+develouper tools: if you have problems, and u need to test it etc... open up browsers, or you could use devlouper tools to help 
+with that stuff. it will give all info that th ebrowser sees and debug 
+
+Get connected to servers. Should be able to publish 
+
+
+
+
+
+Check slack for FTP
+file transfer protocal
+
+-->
+
+</html>
