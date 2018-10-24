@@ -302,6 +302,94 @@ push to github
 
 
 need to connect to server when on site using ftp, then should see server files.
+when u login successfully, and go into public_html,
+bunch of stuff that makes wordpress work. they all start with WP
+grab all them, and delete them, and wordpress will go away
+then put ur own file/folders up there and ur site will work. 
+in a few weeks from now 10/24/18 putting our stuff on in its place, leave empty for now.
+
+-----
+
+special characters: to do special characters, one that u need to copy paste from other places
+ex:
+
+<p> 12>6 </p>
+
+Character entity:
+&#entity_number:
+starts with an ampersans to tell that an entity is coming, then either put the name or the numeric value of each character
+
+ex:
+<p> 12&lt;6 </p> = <
+when u want to put an ampersans, u gotta do the same technique
+
+safe tupefases:
+times new roman
+
+comic sans is not allowed
+
+Define a font family:
+
+if more than one word, wrap in ''
+
+p {
+font-family: Arial, Helvetica, sans-serif;
+font-family: 'Times New Roman', Times, serif;
+font-family: 'Courier New', Courier, monospace;
+}
+
+must make a font scale to decide what is headings, what is paragraphs, and fit into a flow. 
+
+How to calc ems
+
+1em = 100% of parent font
+body {
+    font-size: 16px;
+}
+h1 {
+    font-size: 2em; /*32px*/} 
+}
+
+desired px value / parent px value = x#em
+24/16=1.5
+
+
+main { font-size: 0.88em; } /* 14px */
+main p {
+    /* font-size: 12px; */
+    font-size: 
+}
+
+
+
+
+REM:
+
+rem unit works the same way, but don't divide by the parent, divide by the root pxl value.
+the html element. html default font size = 100%, so it's 100% of user preference
+
+desired pixel value / root px value = x#rem;
+
+
+
+don't just use normal typeface fonts. 
+get a fun one:
+font-family: chunkfiveregular, times, serif;
+^ doesn't wor without font
+
+need to embed font into page.
+font files can be assets for the project. copy font file into folder, and put it into web project. use the 
+
+@font-face {
+    font-family: 'ChunkyFiveRegular';
+    src: url('fonts/chunkfive.eot');
+}
+
+not every operating system can work with the same type of font file. need to test multiple os's.
+u need to have multiple sources for each version thats accessable with the os. like eot, woff, ttf, svg
+
+
+
 
 
 
