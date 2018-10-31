@@ -1,0 +1,79 @@
+* {
+    font-family: Times, 'Times New Roman', serif;
+}  /*For some Reason this doesn't select all text*/
+
+nav {
+    color: blue; /* Nav is all placeholder untill I start creating img elements to replace them*/
+    font-size: 20px;
+    text-align: center;    
+    background: #ADD8e6;
+}
+
+.active {
+    font-weight: bold;
+    color: azure;
+}
+
+form {
+    text-align: Center;
+}
+
+h1 {
+    font-size:  36px; /* Section Title*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center ;
+    background: #f0ead6;
+}
+
+h2 {
+    font-size: 24px; /* sub-Section Title*/
+    text-align: left;
+    background: #f0ead6;
+}
+
+h3 {
+    font-size: 24px; /* secondary type-Section Title*/
+    text-align: left;
+    background: #f0ead6;
+}
+
+footer {
+    background: #f0ead6;
+}
+
+
+/*
+
+This was another attempt, it looked worse
+
+* {
+    font-family: Times, 'Times New Roman', serif;
+} 
+
+html{
+    background-color: #f0ead6;
+}
+
+main{
+    background-color: white;
+}
+
+nav {
+    text-align: center;
+}
+
+h1 {
+    font-size:  36px;
+    text-align: center ;
+}
+
+h2 {
+    font-size: 24px;
+    text-align: left;
+}
+
+h3 {
+    font-size: 24px;
+    text-align: left;
+}
+*/
