@@ -447,6 +447,95 @@ rounded
 etc. lots of tricks for boxes for details
 . do a lil poking around to figurout o ahuid awoad
 
+viewport unit of measurement:
+height: 100vh: = view height
+widt: 100vw: = view width
+
+splash landing page: 100 viewpoint heigh and width will fill the sreen no matter what.
+
+use individual properties for individual maegin:
+
+margin-top
+margin-left
+
+
+instead u can use shorthand, making all 4 sides of a box manipulated = set 1-2-3-4 margins for sides
+
+margin: 1em; -all four sides
+marginL 0 1em --top and bottom 0, right and left 1 em
+margin: .5em 1em 2emL; top .5
+margin: 4 4 4 4 each one is uniqe
+
+margine: 0 auto;
+does something
+
+==== zoned out, check class note. some browsers add auto margin stuff I think?
+if you dont use reset sheet, you can get rid of just margins by doing: 
+
+* { margin: 0;
+    padding: 0;
+}
+
+or do this with specific element
+
+total width:
+left margin + left border + left padding + width +right padding + right border + right margin
+
+bos-sizing: border-box;
+automatically does the math for you. no matter what width/height i ask for, do the math so that it coems out to what i want. 
+
+border
+border-side
+border-width
+border-style
+border-color
+border-side-width
+
+width has 4 possible values, clockwise form the top, and same duplication of values goes here. 2px will be used for all sides
+if no other value is given.
+
+blocks put a line break after itself. 
+
+inline element is the opposite. inline will take up as little space as possible and not create a line break after itself.
+
+can't but a margin on an inline element.
+
+background- starte don it already :)
+
+background-image: url('images/texture.png');
+path is relative to the style sheet, meaning it leaves fromt he style sheet. 
+path to get the picture is from css if it is in the css file. 
+
+background repear is the default. it will repeat horizontally and vetically. 
+
+u can tell it to only repeat on 1 axis
+
+background: no-repeat;
+background attatchment: fixed;
+sets if it stays behing everything movign as u scroll or if it's a flat long image. 
+
+background positio:
+specify the intiral h and v poisiton of the image
+
+background-size: cover; fills the whole container
+image might get cropped
+
+contain; contains it in the largest size possible. with contain it won't get cropped,but it will not fill out container.
+
+
+margin
+
+
+
+css3 has a featue for gradiants:
+linear gradients with all the direcitons and color stops.
+easy to maintain edit and upgrade.
+
+verticle rythem: if two things are part of the whole whole, keep margin 1 number
+if they are different, keep them a second larger number, like 1.5 and 3 rem. 
+
+only do a botom or top margin, never both if ur stacking
+
 
 -->
 
