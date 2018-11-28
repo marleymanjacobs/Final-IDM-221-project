@@ -9,6 +9,10 @@ Additionally, a 404 Not Found error was encountered while trying to use an Error
 Change that caused it to break, adding more to comment
 
 Said it was deleted from disk, re-saved it. Several files said deleted from disk but still existed? re-saved them, still didn't work.
+Now it's working? now it's not? 
+
+
+
 
 Phone not showing up to date site, but browser is.
 
