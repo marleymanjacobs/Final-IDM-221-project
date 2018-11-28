@@ -9,6 +9,13 @@ nav {
     background: #ADD8e6;
 }
 
+main {
+    background-image: url('br.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
 .active {
     font-weight: bold;
     color: azure;
