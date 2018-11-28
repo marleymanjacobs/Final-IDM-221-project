@@ -5,16 +5,10 @@ The requested URL /~marleym4/index.php was not found on this server.
 
 Additionally, a 404 Not Found error was encountered while trying to use an ErrorDocument to handle the request.
 
-(Could it be a cap issue?) I just updated it today, worked before in tests.
+(Could it be a cap issue?) I just updated it today, worked before in tests. Changing caps didn't fix it.
+Change that caused it to break, adding more to comment
 
-
-Download/ Call a google text -- Forgot to do, 
--Why isn't my text being called? (side note)
-
-
-
-Contact me page, left or center align. It looke better on phone center imo, and better on computers with left. 
-
+Said it was deleted from disk, re-saved it. Several files said deleted from disk but still existed? re-saved them, still didn't work.
 
 
 
@@ -23,3 +17,13 @@ How do you use css on a visited link.
 I know there is a link pseudo name, but I don't know how to call it. 
 -For the active part, I marked something to change.
 How do I mark a visited link?
+
+
+Adjust positioning so that nav at top cuts into first tile so that there isn't a line gap.
+
+
+Download/ Call a google text -- Forgot to do, not a question, q -V
+-Why isn't my text being called? I tried using text that was atypical, but don't see it working (side note)
+
+
+Contact me page, left or center align. It looke better on phone center imo, and better on computers with left. 

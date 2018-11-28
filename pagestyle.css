@@ -9,6 +9,10 @@ nav {
     background-image: url('br2.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
 }
 
 html {
