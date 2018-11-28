@@ -1,0 +1,25 @@
+Questions to ask:
+
+Not Found
+The requested URL /~marleym4/index.php was not found on this server.
+
+Additionally, a 404 Not Found error was encountered while trying to use an ErrorDocument to handle the request.
+
+(Could it be a cap issue?) I just updated it today, worked before in tests.
+
+
+Download/ Call a google text -- Forgot to do, 
+-Why isn't my text being called? (side note)
+
+
+
+Contact me page, left or center align. It looke better on phone center imo, and better on computers with left. 
+
+
+
+
+
+How do you use css on a visited link.
+I know there is a link pseudo name, but I don't know how to call it. 
+-For the active part, I marked something to change.
+How do I mark a visited link?
