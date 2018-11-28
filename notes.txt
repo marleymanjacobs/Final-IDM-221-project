@@ -10,7 +10,7 @@ Change that caused it to break, adding more to comment
 
 Said it was deleted from disk, re-saved it. Several files said deleted from disk but still existed? re-saved them, still didn't work.
 
-
+Phone not showing up to date site, but browser is.
 
 
 How do you use css on a visited link.
