@@ -3,7 +3,7 @@
 }  /*For some Reason this doesn't select all text*/
 
 nav {
-    color: blue; /* Nav is all placeholder untill I start creating img elements to replace them*/
+    color: rgb(81, 214, 214);
     font-size: 20px;
     text-align: center;    
     background-image: url('br2.jpg');
@@ -17,17 +17,23 @@ html {
     background-attachment: fixed;
 }
 
-
 .active {
     font-weight: bold;
     color: azure;
 }
 
+.visited {
+    font-weight: bold;
+    color: rgb(81, 214, 214);
+}
+
+
 form {
-    text-align: Center;
+    text-align: left;
 }
 
 h1 {
+    color: navy;
     font-size:  36px; /* Section Title*/
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center ;
@@ -37,6 +43,7 @@ h1 {
 }
 
 h2 {
+    color: navy;
     font-size: 24px; /* sub-Section Title*/
     text-align: left;
     background-image: url('br2.jpg');
@@ -45,6 +52,7 @@ h2 {
 }
 
 h3 {
+    color: navy;
     font-size: 24px; /* secondary type-Section Title*/
     text-align: left;
     background-image: url('br2.jpg');
