@@ -24,6 +24,10 @@ Now it's working? now it's not? no change in between?!?!?
 (fixed)
 
 
+Nav bar isn't being fixed, when it was-earlier today.
+/ text not showing the right color in nav, but background is correct. 
+
+
 Phone not showing up to date site, but browser is.
 
 
