@@ -1,3 +1,13 @@
+Todo:
+
+Everything lowercase, then put all online, then test it again. 
+
+
+
+
+
+
+
 Questions to ask:
 
 Not Found
@@ -9,9 +19,9 @@ Additionally, a 404 Not Found error was encountered while trying to use an Error
 Change that caused it to break, adding more to comment
 
 Said it was deleted from disk, re-saved it. Several files said deleted from disk but still existed? re-saved them, still didn't work.
-Now it's working? now it's not? 
+Now it's working? now it's not? no change in between?!?!?
 
-
+(fixed)
 
 
 Phone not showing up to date site, but browser is.
@@ -33,3 +43,4 @@ Download/ Call a google text -- Forgot to do, not a question, q -V
 Contact me page, left or center align. It looke better on phone center imo, and better on computers with left. 
 
 Want to do more, but don't have that much content to add. 
+-notes from critique that I could use
