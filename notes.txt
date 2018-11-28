@@ -31,3 +31,5 @@ Download/ Call a google text -- Forgot to do, not a question, q -V
 
 
 Contact me page, left or center align. It looke better on phone center imo, and better on computers with left. 
+
+Want to do more, but don't have that much content to add. 
