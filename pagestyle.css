@@ -6,10 +6,12 @@ nav {
     color: blue; /* Nav is all placeholder untill I start creating img elements to replace them*/
     font-size: 20px;
     text-align: center;    
-    background: #ADD8e6;
+    background-image: url('br2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
-main {
+html {
     background-image: url('br.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -29,23 +31,31 @@ h1 {
     font-size:  36px; /* Section Title*/
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center ;
-    background: #f0ead6;
+    background-image: url('br2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 h2 {
     font-size: 24px; /* sub-Section Title*/
     text-align: left;
-    background: #f0ead6;
+    background-image: url('br2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 h3 {
     font-size: 24px; /* secondary type-Section Title*/
     text-align: left;
-    background: #f0ead6;
+    background-image: url('br2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 footer {
-    background: #f0ead6;
+    background-image: url('br2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 
