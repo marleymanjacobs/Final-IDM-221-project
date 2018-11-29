@@ -2,12 +2,6 @@ Todo:
 
 Everything lowercase, then put all online, then test it again. 
 
-
-
-
-
-
-
 Questions to ask:
 
 Not Found
@@ -24,8 +18,13 @@ Now it's working? now it's not? no change in between?!?!?
 (fixed)
 
 
-Nav bar isn't being fixed, when it was-earlier today.
-/ text not showing the right color in nav, but background is correct. 
+Nav bar isn't being fixed, when it was-earlier today. (as in scrolling with the page)
+/ text not showing the right color in nav, but background is correct. (this might be part of the visited issue)
+
+-tried changing background image  to scroll instead of fixed, didn't work.
+
+
+
 
 
 Phone not showing up to date site, but browser is.
@@ -48,3 +47,18 @@ Contact me page, left or center align. It looke better on phone center imo, and 
 
 Want to do more, but don't have that much content to add. 
 -notes from critique that I could use
+
+
+
+
+
+-PSUEDOCLASS SOKUTION
+
+a:link, a:visited {
+
+    color: 33333x
+}
+
+
+give padding to give text breathing room. 
+get typefacing, consitant spacing. 
