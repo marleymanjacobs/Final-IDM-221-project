@@ -15,6 +15,11 @@ nav {
     background-attachment: fixed;
 }
 
+a:link, a:visited {
+    font-weight: bold;
+    color: rgb(81, 214, 214);
+}
+
 html {
     background-image: url('br.jpg');
     background-repeat: no-repeat;
@@ -24,11 +29,6 @@ html {
 .active {
     font-weight: bold;
     color: azure;
-}
-
-.visited {
-    font-weight: bold;
-    color: rgb(81, 214, 214);
 }
 
 
