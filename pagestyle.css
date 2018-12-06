@@ -21,7 +21,7 @@ nav {
 
 a:link, a:visited {
     font-weight: bold;
-    color: rgb(81, 214, 214);
+    color: navy;
 }
 
 html {
@@ -30,11 +30,15 @@ html {
     background-attachment: fixed;
 }
 
-.active {
+a:active {
     font-weight: bold;
     color: azure;
 }
 
+a.active {
+    font-weight: bold;
+    color: azure;
+}
 
 form {
     text-align: left;

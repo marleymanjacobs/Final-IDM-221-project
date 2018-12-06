@@ -48,6 +48,11 @@ Contact me page, left or center align. It looke better on phone center imo, and 
 Want to do more, but don't have that much content to add. 
 -notes from critique that I could use
 
+Final project:
+
+Link to github, and home page of the site in what you submit. 
+
+
 
 
 
@@ -58,6 +63,10 @@ a:link, a:visited {
 
     color: 33333x
 }
+-Doesn''t work
+
+
+
 
 
 give padding to give text breathing room. 
