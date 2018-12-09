@@ -15,7 +15,7 @@ nav {
     font-size: 20px;
     text-align: center;    
     background-image: url('br2.jpg');
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-attachment: fixed;
 }
 
