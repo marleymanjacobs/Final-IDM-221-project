@@ -1,7 +1,7 @@
-* {
-    font-family: Times, 'Times New Roman', serif;
-}  /*For some Reason this doesn't select all text, also need to add code to call on custom text. 
-
+@font-face {
+    font-family: '';
+    src: url(''); }
+/*
 Custom Text for Headers: Bungee
 is fun font. -Check class slides for font uploading to double check
 */
